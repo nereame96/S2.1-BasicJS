@@ -4,85 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        /* Variables CSS per mantenir la coherència */
-        :root {
-            --color-light-green: #f0fff0; /* Base molt clara */
-            --color-medium-green: #4CAF50; /* Verd principal (Accent) */
-            --color-dark-green: #1b5e20;
-            --color-text-dark: #2c3e50; /* Gris fosc per al text */
-            --shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.08);
-            --border-radius: 8px;
-        }
-
-        body {
-            /* Fons verd clar elegant */
-            background-color: var(--color-light-green); 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: var(--color-text-dark);
-            margin: 0;
-            padding: 40px 20px;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .container {
-            /* Contenidor centralitzat i elevat */
-            background-color: #ffffff; 
-            padding: 40px;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-subtle);
-            max-width: 800px;
-            width: 100%;
-            transition: all 0.3s ease-in-out;
-        }
-
-        .container:hover {
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-        }
-
-        h1.page-title {
-            color: var(--color-dark-green);
-            font-size: 2.2em;
-            font-weight: 700;
-            border-bottom: 2px solid var(--color-medium-green);
-            padding-bottom: 15px;
-            margin-top: 0;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-        
-        ul {
-            list-style: none; /* Eliminem les viñetes per defecte */
-            padding: 0;
-            margin-top: 30px;
-        }
-
-        ul li {
-            background-color: #f8f8f8;
-            padding: 12px 20px;
-            margin-bottom: 10px;
-            border-left: 5px solid var(--color-medium-green); /* Barra d'accent verd */
-            border-radius: 4px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-            transition: background-color 0.2s;
-        }
-        
-        ul li:hover {
-            background-color: #e8ffe8; /* Resalt en passar el ratolí */
-            cursor: default;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -100,7 +22,7 @@
     </ul>
 
 
-    <!-- Script of each exercise -->
+    
     <script src="./script/ex1_arrow_funtions.js"></script>
     <script src="./script/ex2_ternary.js"></script>
     <script src="./script/ex3_callbacks.js"></script>

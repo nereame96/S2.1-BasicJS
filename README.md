@@ -1,7 +1,7 @@
-S2.1: Modern JavaScript Fundamentals
+# S2.1: Modern JavaScript Fundamentals
 This repository contains the solved exercises for Sprint 2.1, focused on practicing and understanding the fundamentals of modern JavaScript (ES6+).
 
-🎯 Sprint Objectives
+## Sprint Objectives
 
 This module was designed to cover the following key areas of the language:
 
@@ -19,7 +19,7 @@ Array and Object Loops: Practice with forEach, for-of, for-in, some, and every.
 
 Promises & Async/Await: Handling asynchronicity and error control.
 
-📁 Project Structure
+## Project Structure
 
 
 The code is organized into separate JavaScript files (within the script/ folder) which are imported by the main index.html file.
@@ -43,7 +43,7 @@ script/ex6_array_loops.js	Exercises 1.6
 script/ex7_promises_async_await.js	Exercises 1.7
 
 
-💻 How to Run the Code
+## How to Run the Code
 
 Clone the Repository:
 
@@ -54,14 +54,21 @@ git clone [Your GIT Repository URL]
 
 Open the Page:
 
-Double-click the index.html file to open it in your browser or https://nereame96.github.io/S2.1-BasicJS/
+Double-click the index.html file to open it in your browser.
 
 View Results:
 
 To see the output of all exercises, open your browser's Developer Console (by pressing F12 or Cmd + Option + J on Mac). All function results are printed using console.log().
 
 
-Autor
+## Live Demo
+
+You can also view the project hosted live here: 
+
+https://nereame96.github.io/S2.1-BasicJS/
+
+
+## Autor
 
 Nerea Medina Carrasco
 
